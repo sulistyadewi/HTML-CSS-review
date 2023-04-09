@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/5ec826f967.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      class="flex bg-blue-400 w-full py-2 px-3 items-center justify-between relative"
+    >
+      <div class="flex items-center gap-3">
+        <img
+          class="w-8 h-8 rounded-full"
+          src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+        />
+        <h1 class="items-center font-semibold tracking-wider">Nathalie</h1>
+      </div>
+      <button id="menuBar" class="md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </button>
+      <div class="hidden md:block">
+        <ul class="flex gap-10">
+          <li>Home</li>
+          <li>About</li>
+          <li>Project</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div
+        id="menuMobile"
+        class="absolute -top-52 bg-blue-500 w-full left-0 px-5 py-5 transition-all duration-1000 ease-in-out"
+      >
+        <ul class="flex flex-col gap-5">
+          <li>Home</li>
+          <li>About</li>
+          <li>Project</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </header>
+    <script src="../dist/script.js"></script>
+  </body>
+</html>
