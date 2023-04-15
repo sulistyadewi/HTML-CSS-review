@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <script
@@ -54,13 +54,13 @@
         </div>
         <div
           id="menuMobile"
-          class="absolute top-14 h-52 w-full bg-emerald-400 -left-[800px] bg-opacity-50 px-5 py-5 md:hidden transition-all duration-1000 ease-in-out"
+          class="absolute h-52 w-full bg-emerald-400 top-14 -left-[800px] bg-opacity-50 px-5 py-5 md:hidden transition-all duration-1000 ease-in-out"
         >
           <ul class="flex flex-col gap-5">
-            <li class="font-black">Home</li>
-            <li class="font-black">About</li>
-            <li class="font-black">Project</li>
-            <li class="font-black">Contact</li>
+            <li class="font-semibold">Home</li>
+            <li class="font-semibold">About</li>
+            <li class="font-semibold">Project</li>
+            <li class="font-semibold">Contact</li>
           </ul>
         </div>
       </div>
@@ -68,17 +68,19 @@
     <div
       class="bg-emerald-500 w-full h-screen flex flex-col items-center justify-center sm:bg-lime-400 md:bg-amber-400 lg:bg-red-500"
     >
-      <h1 class="text-center text-4xl text-white px-3 font-semibold">
+      <h1
+        class="text-center text-4xl text-white px-3 font-semibold sm:text-5xl md:px-20 md:leading-relaxed"
+      >
         HEY, MY NAME IS
         <span class="md:text-6xl md:text-zinc-500">SULISTYA</span>
       </h1>
-      <p class="text-center text-md text-white mt-5 px-2 md:px-20">
+      <p class="text-center text-md text-white mt-5 px-2 sm:px-10 md:text-lg">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
         tempora explicabo quae quod deserunt eius sapiente solutions for complex
         problems
       </p>
       <button
-        class="bg-white mt-5 px-20 py-3 rounded tracking-wider font-semibold"
+        class="bg-white mt-5 px-20 py-3 rounded tracking-wider font-semibold hover:bg-gray-300 transform active:translate-y-1 md:mt-7"
       >
         PROJECT
       </button>
@@ -115,16 +117,18 @@
 
     <!-- ================ ABOUT ============== -->
 
-    <div class="w-full h-96 px-3">
+    <div class="w-full h-96 px-3 sm:px-4">
       <h1 class="mt-14 text-3xl text-center font-bold">ABOUT ME</h1>
-      <p class="mt-6 text-center">
+      <p class="mt-6 text-center text-slate-600 md:leading-relaxed">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste in
         blanditiis consequatur facilis ipsam itaque molestias veritatis!
       </p>
       <div class="md:flex md:items-start md:mt-10">
         <div class="px-2">
-          <h3 class="mt-16 font-bold text-xl md:mt-0">Get To Know Me!</h3>
-          <p class="mt-5 text-slate-600">
+          <h3 class="mt-16 font-bold text-xl md:mt-11 lg:mt-0">
+            Get To Know Me!
+          </h3>
+          <p class="mt-5 text-slate-600 md:leading-loose">
             Hey! It's <span class="font-semibold">Sulistya</span> and I'm a
             <span class="font-semibold">Frontend Web Developer</span> located in
             Los Angeles. I've done remote projects for agencies, consulted for
@@ -132,85 +136,86 @@
             <span class="font-semibold">digital products</span> for both
             business and consumer use.
           </p>
-          <p class="mt-3 text-slate-600">
+          <p class="mt-3 text-slate-600 md:leading-loose">
             I'm a bit of a digital product junky. Over the years, I've used
             hundreds of web and mobile apps in different industries and
             verticals. Feel free to
             <span class="font-semibold">contact</span> me here.
           </p>
           <button
-            class="bg-gradient-to-b from-emerald-400 to-emerald-600 text-white font-medium mt-10 px-7 py-3 rounded"
+            class="bg-gradient-to-b from-emerald-400 to-emerald-600 text-white font-medium mt-10 px-7 py-3 rounded hover:bg-gradient-to-b hover:from-emerald-500 hover:to-emerald-800 transform active:translate-y-1 active:duration-75"
           >
             Contact
           </button>
         </div>
+      </div>
+      <div>
         <div class="px-3 mt-20 md:mt-0">
-          <h3 class="mt-7 text-xl font-bold md:mt-0">My Skills</h3>
+          <h3 class="mt-7 text-xl font-bold md:mt-16 lg:mt-0">My Skills</h3>
           <div class="flex flex-wrap mt-3">
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-20 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-800 font-medium text-sm rounded mt-5 w-20 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               HTML
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-16 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-800 font-medium text-sm rounded mt-5 w-16 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               CSS
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-28 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-800 font-medium text-sm rounded mt-5 w-28 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               JavaScript
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-20 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-800 font-medium text-sm rounded mt-5 w-20 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               React
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-[5.5rem] text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-800 font-medium text-sm rounded mt-5 w-[5.5rem] text-center mr-3 py-4 hover:bg-neutral-400"
             >
               SASS
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-14 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-14 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               GIT
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-24 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-24 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               Shopify
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-32 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-32 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               Wordpress
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-32 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-32 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               Google ADS
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-36 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-36 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               Facebook Ads
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-[5.5rem] text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-[5.5rem] text-center mr-3 py-4 hover:bg-neutral-400"
             >
               Android
             </div>
             <div
-              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-16 text-center mr-3 py-4"
+              class="bg-neutral-300 text-neutral-700 font-medium text-sm rounded mt-5 w-16 text-center mr-3 py-4 hover:bg-neutral-400"
             >
               IOS
             </div>
           </div>
         </div>
       </div>
-      >
     </div>
     <script src="../dist/script.js"></script>
   </body>
